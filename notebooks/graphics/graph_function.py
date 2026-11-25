@@ -19,3 +19,9 @@ def make_graph(stock_data, revenue_data, stock):
 
     plt.tight_layout()
     plt.show()
+
+# Plot Tesla Stock Graph
+make_graph(tesla_data, tesla_revenue, 'Tesla')
+
+# Plot GameStop Stock Graph
+make_graph(gme_data, gme_revenue, 'GameStop')
