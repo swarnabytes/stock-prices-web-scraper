@@ -1,5 +1,4 @@
-# Install required libraries
-!pip install yfinance beautifulsoup4 requests pandas matplotlib nbformat
+
 
 # Import libraries
 import yfinance as yf
